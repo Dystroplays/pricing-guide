@@ -9,7 +9,7 @@ export function PricingTable({ data }: { data: ProductLineData }) {
           <tr className="bg-muted border-b border-border">
             <th className="px-6 py-4 text-left font-semibold">Door Size</th>
             <th className="px-6 py-4 text-right font-semibold">Base Price</th>
-            <th className="px-6 py-4 text-right font-semibold">+ Glass Option</th>
+            <th className="px-6 py-4 text-right font-semibold">+ {data.glassColumnLabel ?? "Glass Option"}</th>
             <th className="px-6 py-4 text-right font-semibold">+ Insulated</th>
           </tr>
         </thead>

@@ -22,7 +22,7 @@ export default function PricingPage() {
           variant="outline"
           className="text-price border-price/30 bg-price/5"
         >
-          Effective January 2026
+          Pricing effective as of March 2026
         </Badge>
       </section>
 

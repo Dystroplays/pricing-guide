@@ -1,21 +1,21 @@
-import { Package, Truck, ShieldCheck } from "lucide-react";
+import { Package, Tag, Clock } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const INFO_ITEMS = [
   {
     icon: Package,
-    title: "Volume Discounts",
-    description: "Orders of 10+ doors qualify for tiered volume pricing.",
+    title: "Pickup Pricing",
+    description: "Pickup pricing displayed, shipping will be at cost. 2–3 week lead time.",
   },
   {
-    icon: Truck,
+    icon: Tag,
+    title: "Whitelabel",
+    description: "You can whitelabel this as your door.",
+  },
+  {
+    icon: Clock,
     title: "Lead Time",
-    description: "Standard orders ship within 5\u20137 business days.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Warranty",
-    description: "All doors include a 5-year manufacturer warranty.",
+    description: "General lead time is 2-3 weeks. However if you need it sooner please note timeline on order.",
   },
 ];
 

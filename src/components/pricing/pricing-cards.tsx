@@ -3,6 +3,7 @@ import { ProductLineData } from "@/data/pricing";
 import { formatPrice } from "@/lib/format";
 
 export function PricingCards({ data }: { data: ProductLineData }) {
+  const glassLabel = data.glassColumnLabel ?? "+ Glass";
   return (
     <div className="space-y-3">
       {data.rows.map((row) => (
@@ -24,7 +25,7 @@ export function PricingCards({ data }: { data: ProductLineData }) {
               </div>
               <div>
                 <p className="text-[11px] text-muted-foreground uppercase tracking-wider mb-1">
-                  + Glass
+                  {glassLabel}
                 </p>
                 <p className="font-semibold text-foreground">
                   {formatPrice(row.glass)}

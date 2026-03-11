@@ -20,11 +20,11 @@ export function Footer() {
               214.605.3376
             </a>
             <a
-              href="mailto:blake@doorvana.com"
+              href="mailto:Hello@doorvana.com"
               className="inline-flex items-center gap-2 text-muted-foreground hover:text-price transition-colors"
             >
               <Mail className="h-4 w-4" />
-              blake@doorvana.com
+              Hello@doorvana.com
             </a>
           </div>
         </div>
